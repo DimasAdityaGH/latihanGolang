@@ -44,7 +44,7 @@ keterangan = membuat slice baru
 operasi = copy(destination, source)
 keterangan = menyalin slice dari source ke destination
 
-hati-hati saat membuat arra:
+hati-hati saat membuat array:
 
 -saat membuat array, kita harus berhati-hati, jika salah, maka yang kita buat bukanlah array, melainkan slice
 
