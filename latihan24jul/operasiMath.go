@@ -10,6 +10,5 @@ func main () {
 
 	var perkalian = 10 * 2
 	fmt.Println(perkalian)
-
 	fmt.Println(20 + 1)
 }
