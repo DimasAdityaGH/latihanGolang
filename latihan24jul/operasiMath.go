@@ -7,4 +7,9 @@ func main () {
 	var b = 10
 	var c = a + b 
 	fmt.Println(c)
+
+	var perkalian = 10 * 2
+	fmt.Println(perkalian)
+
+	fmt.Println(20 + 1)
 }
