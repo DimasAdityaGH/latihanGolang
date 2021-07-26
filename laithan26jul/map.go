@@ -1,22 +1,36 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main() {
-	var brand = map[string]string {
-		"nama": "dimas",
-		"id": "1",
+func main () {
+	var book map[string]string = map[string]string{
+		"nama": "learn go",
+		"penulis": "john",
 	}
-	fmt.Println(brand)
-	fmt.Println(brand["nama"])
-	fmt.Println(brand["id"])
-	fmt.Println(len(brand))
+	fmt.Println(book)
 
-	murid := make(map[string]int) 
-	murid["nomor"] = 12
-	murid["id"] = 1
-	fmt.Println(murid["nomor"])
-	fmt.Println(murid["id"])
+	//mengambil data dimap dengan key
+	fmt.Println(book["nama"])
 
-	delete[murid["nomor"]] 
+	//membuat map baru dengan make
+	buku := make(map[string]string)
+	buku["nama"] = "sndadno"
+	buku["penulis"] = "doasn"
+	fmt.Println(buku)
+	//mencari len di map
+	fmt.Println(len(buku))
+	//mengubah data dimap dengan key
+	buku["nama"] = "learn python"
+	fmt.Println(buku)
+	fmt.Println(buku["nama"])
+
+	data := make(map[string]string)
+	data["important"] = "1e13n"
+	data["false"] = "123e"
+
+	delete(data, "false")
+	fmt.Println(data)
+
 }
