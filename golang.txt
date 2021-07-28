@@ -10,3 +10,7 @@ operasi matematika
 operasi perbandingan
 array
 slices
+map
+if Expression
+
+
