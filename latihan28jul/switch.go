@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main () {
-	var name = "dimass"
+	var name = "dimas"
 
 	switch name {
 	case "dimas":
 		fmt.Println("hello dimas")
-	case "farhan":
-		fmt.Println("hello farhan")
+	case "john":
+		fmt.Println("hello john")
 	default:
 		fmt.Println("hello world!")
 	}
